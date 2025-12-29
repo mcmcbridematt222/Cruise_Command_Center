@@ -3,7 +3,7 @@ name: Daily Cruise Scraper
 on:
   schedule:
     # Runs at 11:00 UTC (which is 6:00 AM EST)
-    - cron: '0 11 * * *'
+    - cron: '0 11 * * 1'
   workflow_dispatch: # Allows you to run it manually efficiently
 
 permissions:
